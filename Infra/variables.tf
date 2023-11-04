@@ -5,9 +5,6 @@ variable "bucket_name" {
 }
 
 variable "common_tags" {
-    type = map(string)
     description = "Common tags you can applied to all components"
-    default = {
-        Project = "Lab 4 submission"
-    }
+    
 }
